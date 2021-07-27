@@ -4,4 +4,4 @@ configuration {
   show-icons:         true;
 //  icon-theme:         "Papirus";
 }
-@import "~/.dotfiles/rofi/themes/minimal.rasi"
+@import "~/.dotfiles/rofi/themes/andrea.rasi"
