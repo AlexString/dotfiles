@@ -15,8 +15,8 @@ alias neofetch='clear && neofetch'
 
 # clear screen aliases {
 alias cl='clear' 
-alias clt='clear && tree --dirsfirst -C' # clear screen and list by tree
-alias cls='clear && ls' # clear screen and list directory
+alias clt='clear && tree --dirsfirst -C'
+alias cls='clear && ls'
 # }
 
 # git {
