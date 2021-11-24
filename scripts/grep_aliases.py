@@ -10,6 +10,7 @@ if __name__ == "__main__":
 	except:
 		print("Something went wrong while trying to call script. Exception ")
 		print(sys.exc_info())
+		sys.exit(0)
 		
 	with open('.bash_aliases','r') as bash_aliases_file:
 		alias = colored(230,230,0,"alias")
