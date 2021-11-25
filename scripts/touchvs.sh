@@ -2,9 +2,6 @@
 
 # Create file and open file in vs code
 
-# This script receives. 
-# $1: a filename
-
 if ! [ -z "$1"]
 then
 	touch $1
