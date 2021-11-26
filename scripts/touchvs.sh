@@ -2,7 +2,7 @@
 
 # Create file and open file in vs code
 
-if ! [ -z "$1"]
+if ! [ -z "$1" ]
 then
 	touch $1
 	code $1
