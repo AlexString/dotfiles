@@ -2,14 +2,20 @@
 # bash_aliases
 
 # helpers -- {
-alias v='vim'
-alias movetovim='cd ~/.config/nvim/'
-alias update='sudo apt update -y && sudo apt upgrade -y'
+alias v='nvim'
+
+alias tonvim='cd ~/.config/nvim/'
+
+alias Downloads='cd ~/Downloads/'
+
+#alias update='sudo apt update -y && sudo apt upgrade -y'
+alias update='sudo dnf update -y && sudo dnf upgrade -y'
+alias feh='feh --bg-scale'
 # }
 
 # stylers -- {
 alias ls='ls -la -p --format=long --sort=extension --color=auto'
-alias tree='tree --dirsfirst -C'
+alias tree='tree --dirsfirst -C -a -I .git'
 alias neofetch='clear && neofetch'
 # }
 
@@ -21,6 +27,7 @@ alias cls='clear && ls'
 
 # git {
 alias g='git'
+alias gadd='git add'
 
 alias gs='git status'
 alias gscl='clear && gs'
@@ -28,14 +35,5 @@ alias gscl='clear && gs'
 alias gb='git branch'
 alias gbcl='clear && gb'
 
-alias gC='git checkout'
-
-alias howpush='echo "git remote add origin https://github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>
-git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git"'
-# }
-
-# other {
-alias solveaudio='printf "systemctl --user restart pulseaudio.service \n" &&
-printf "if this not helps try:\n" &&
-printf "kill al processes: \n pulseaudio -k \nUntil it says theres no processes running \n rm -rf .config/pulse \n pulseaudio --start \n"'
+alias gc='git checkout'
 # }
