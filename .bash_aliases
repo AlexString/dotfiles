@@ -4,10 +4,6 @@
 # helpers -- {
 alias v='nvim'
 
-alias tonvim='cd ~/.config/nvim/'
-
-alias Downloads='cd ~/Downloads/'
-
 #alias update='sudo apt update -y && sudo apt upgrade -y'
 alias update='sudo dnf update -y && sudo dnf upgrade -y'
 alias feh='feh --bg-scale'
@@ -23,6 +19,12 @@ alias neofetch='clear && neofetch'
 alias cl='clear' 
 alias clt='clear && tree --dirsfirst -C'
 alias cls='clear && ls'
+# }
+
+# directories {
+alias toNvim='cd ~/.config/nvim/'
+alias toDownloads='cd ~/Downloads/'
+alias toRepositories='cd ~/Repositories'
 # }
 
 # git {
